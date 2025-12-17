@@ -1,5 +1,5 @@
 # Defender Challenge
-Project implements a static malware detection system for Windows PE files using machine learning and PE metadata from the EMBER dataset. It extracts structural, categorical, and textual features from JSON-based PE representations and classifies binaries as malware or benign
+Project implements a static malware detection system for Windows PE files using machine learning and PE metadata from the EMBER dataset. It extracts structural, categorical, and textual features from JSON-based PE representations and classifies binaries as malware or benign.
 
 ## Prerequisites
 
@@ -10,7 +10,6 @@ From the `defender` folder that contains the `Dockerfile`, build the solution:
 ```
 docker build -t some_name .
 ```
-
 ## Run the docker container
 ```
 docker run -itp 8080:8080 some_name
