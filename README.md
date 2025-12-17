@@ -5,6 +5,8 @@ Project implements a static malware detection system for Windows PE files using 
 
 Before you proceed, you must [install Docker Engine](https://docs.docker.com/engine/install/) for your operating system.
 
+## Install dependencies
+
 ## Build the Docker Image
 From the `defender` folder that contains the `Dockerfile`, build the solution:
 ```
